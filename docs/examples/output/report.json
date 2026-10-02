@@ -1,0 +1,83 @@
+{
+  "results": [
+    {
+      "original_filename": "DSC_0412.jpg",
+      "new_filename": "bright-living-room-blue-sofa.jpg",
+      "status": "ok",
+      "alt": "Bright living room with a blue sofa, a white chair, houseplants and a TV on a low white cabinet",
+      "title": "Bright living room with blue sofa",
+      "description": "A bright living room with a blue sofa, a white chair with a fluffy white throw and a floor lamp beside a large window. Houseplants and two candles sit on a low white cabinet next to a TV, above a wooden floor.",
+      "tags": [
+        "living room",
+        "interior",
+        "blue sofa",
+        "houseplants",
+        "window"
+      ],
+      "domain": "example.com",
+      "watermark_status": "applied",
+      "watermark_position": "bottom-right",
+      "width": 5346,
+      "height": 3568
+    },
+    {
+      "original_filename": "IMG_2290.jpg",
+      "new_filename": "chalkboard-menu-cakes-coffee-bread.jpg",
+      "status": "ok",
+      "alt": "Chalkboard menu listing cakes, coffee and bread, with a bicycle handlebar in front of a blurred background",
+      "title": "Chalkboard menu with cakes and coffee",
+      "description": "A handwritten chalkboard menu lists dishes such as croissants, eggs and bacon, cakes and coffee, and home-style bread. A bicycle handlebar sits in front of a softly blurred background.",
+      "tags": [
+        "chalkboard",
+        "menu",
+        "cakes",
+        "coffee",
+        "bicycle"
+      ],
+      "domain": "example.com",
+      "watermark_status": "applied",
+      "watermark_position": "bottom-left",
+      "width": 3504,
+      "height": 2336
+    },
+    {
+      "original_filename": "IMG_4821.jpg",
+      "new_filename": "latte-art-teal-cup-tray.jpg",
+      "status": "ok",
+      "alt": "Latte with heart-shaped foam art in a teal cup on a teal tray with a folded napkin, on a wooden table",
+      "title": "Latte art in a teal cup",
+      "description": "A latte with a heart-shaped pattern in the foam sits in a teal cup on a matching tray with a folded paper napkin. A dark drink in a glass is out of focus at the upper left of the wooden table.",
+      "tags": [
+        "latte",
+        "coffee cup",
+        "latte art",
+        "teal",
+        "wooden table"
+      ],
+      "domain": "example.com",
+      "watermark_status": "applied",
+      "watermark_position": "bottom-right",
+      "width": 6000,
+      "height": 4004
+    },
+    {
+      "original_filename": "IMG_7305.jpg",
+      "new_filename": "three-bread-slices-on-plate.jpg",
+      "status": "ok",
+      "alt": "Three slices of white bread on a round plate with a pink floral pattern, seen from above",
+      "title": "Three slices of white bread",
+      "description": "Three slices of white sandwich bread with golden crusts lie on a round plate decorated with pink flowers. The plate sits on a dark surface and is photographed from directly above.",
+      "tags": [
+        "bread",
+        "white bread",
+        "plate",
+        "food"
+      ],
+      "domain": "example.com",
+      "watermark_status": "applied",
+      "watermark_position": "bottom-right",
+      "width": 4096,
+      "height": 3072
+    }
+  ]
+}
