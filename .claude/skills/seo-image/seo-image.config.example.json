@@ -1,0 +1,10 @@
+{
+  "domain": "example.com",
+  "output_dir": "seo-images",
+  "watermark": {
+    "enabled": true,
+    "position": "bottom-right",
+    "opacity": 0.6,
+    "size": 2.5
+  }
+}

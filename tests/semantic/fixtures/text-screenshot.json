@@ -1,0 +1,7 @@
+{
+  "image_type": "screenshot",
+  "reviewed": "A plain document-style graphic with a blue header bar, the heading 'Quarterly Summary', the line 'Total: 42 items' and an empty bordered box.",
+  "must_mention": [["quarterly", "summary"]],
+  "must_not_mention": ["revenue", "profit", "sales"],
+  "forbidden_terms": ["acme","brandname","logo","trademark", "excel", "powerpoint", "word", "google", "dashboard"]
+}

@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "analysis list written by the agent (one entry per inspected file, in order)",
+  "type": "array",
+  "items": {
+    "oneOf": [
+      {
+        "type": "object",
+        "required": [
+          "path",
+          "image_type",
+          "primary_subject",
+          "metadata"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "image_type": {
+            "type": "string"
+          },
+          "primary_subject": {
+            "type": "string"
+          },
+          "secondary_objects": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "scene": {
+            "type": "string"
+          },
+          "visible_text": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "corners": {
+            "type": "object",
+            "required": [
+              "top-left",
+              "top-right",
+              "bottom-left",
+              "bottom-right"
+            ],
+            "additionalProperties": {
+              "enum": [
+                "free",
+                "subject",
+                "face_or_text"
+              ]
+            }
+          },
+          "metadata": {
+            "type": "object",
+            "required": [
+              "filename_stem",
+              "alt",
+              "title",
+              "description",
+              "tags"
+            ],
+            "properties": {
+              "filename_stem": {
+                "type": "string"
+              },
+              "alt": {
+                "type": "string",
+                "maxLength": 124
+              },
+              "title": {
+                "type": "string",
+                "maxLength": 70
+              },
+              "description": {
+                "type": "string"
+              },
+              "tags": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 8,
+                "items": {
+                  "type": "string"
+                }
+              },
+              "distinguisher": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "title": "analysis of an ok image"
+      },
+      {
+        "title": "entry for a file that is not ok (unsupported, unreadable)",
+        "type": "object",
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string"
+          }
+        }
+      }
+    ]
+  },
+  "description": "An entry for a file that was not ok carries only its path; the helper reports it as skipped or failed. corners is needed only when a domain is supplied."
+}

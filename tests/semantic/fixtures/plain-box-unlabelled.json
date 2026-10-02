@@ -1,0 +1,7 @@
+{
+  "image_type": "product",
+  "reviewed": "A plain grey box with a lighter lid on a light background. There is no label, text or logo, so nothing can be said about what it is or contains.",
+  "must_mention": [["box"]],
+  "must_not_mention": ["cardboard", "metal", "plastic", "gift", "shoe", "storage"],
+  "forbidden_terms": ["acme","brandname","logo","trademark", "amazon", "apple", "samsung", "sony", "premium", "luxury"]
+}

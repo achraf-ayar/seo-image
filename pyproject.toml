@@ -1,0 +1,13 @@
+[project]
+name = "seo-image"
+version = "0.1.0"
+description = "Agent skill that prepares images for website publication"
+requires-python = ">=3.10"
+dependencies = ["pillow>=10.1"]
+
+[project.optional-dependencies]
+dev = ["pytest", "jsonschema"]
+
+[tool.pytest.ini_options]
+pythonpath = [".claude/skills/seo-image/scripts", "tests", "tests/semantic"]
+testpaths = ["tests/unit", "tests/integration"]

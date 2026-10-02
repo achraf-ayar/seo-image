@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "seo-image.config.json",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "domain": { "type": ["string", "null"] },
+    "output_dir": { "type": "string" },
+    "watermark": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "position": { "enum": ["bottom-right", "bottom-left", "top-right", "top-left"] },
+        "opacity": { "type": "number", "minimum": 0.1, "maximum": 1.0 },
+        "size": { "type": "number", "minimum": 1, "maximum": 6 }
+      }
+    }
+  }
+}

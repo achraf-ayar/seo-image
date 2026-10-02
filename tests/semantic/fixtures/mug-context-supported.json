@@ -1,0 +1,8 @@
+{
+  "image_type": "illustration",
+  "reviewed": "Same drawing as red-mug-on-shelf: a red mug on a shelf. The page context 'mug collection' matches what is shown, so it may shape the wording.",
+  "context": {"text": "mug collection", "supported": true, "terms": ["collection"]},
+  "must_mention": [["mug", "cup"], ["shelf"]],
+  "must_not_mention": ["coffee", "tea", "wood", "ceramic", "porcelain"],
+  "forbidden_terms": ["acme", "brandname", "logo", "kitchen", "paris", "london", "new york"]
+}

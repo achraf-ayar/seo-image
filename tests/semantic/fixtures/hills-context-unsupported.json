@@ -1,0 +1,9 @@
+{
+  "image_type": "landscape",
+  "reviewed": "Same drawing as hills-landscape: green hills, light blue sky, a yellow sun. Nothing shows snow, skiing, winter or a mountain range, so the page context 'winter ski holidays in the Alps' is not supported and must be ignored.",
+  "context": {"text": "winter ski holidays in the Alps", "supported": false,
+              "terms": ["winter", "ski", "skiing", "snow", "alps", "alpine", "holiday", "holidays", "resort"]},
+  "must_mention": [["hill", "hills", "landscape"], ["sun", "sky"]],
+  "must_not_mention": ["mountain", "valley", "forest", "sunset", "sunrise"],
+  "forbidden_terms": ["acme", "brandname", "logo", "scotland", "ireland", "switzerland", "tuscany", "national park"]
+}

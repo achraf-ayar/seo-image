@@ -1,3 +1,12 @@
 # Spec Kit
 .specify/
-.claude/
+.claude/*
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/seo-image/
+
+# Outputs and caches
+seo-images/
+__pycache__/
+.pytest_cache/
+.venv/

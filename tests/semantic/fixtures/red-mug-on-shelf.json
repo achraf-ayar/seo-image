@@ -1,0 +1,7 @@
+{
+  "image_type": "illustration",
+  "reviewed": "A simple drawing of a red mug with a handle on a brown shelf, with a green plant to the left.",
+  "must_mention": [["mug", "cup"], ["shelf"]],
+  "must_not_mention": ["coffee", "tea", "wood", "ceramic", "porcelain"],
+  "forbidden_terms": ["acme","brandname","logo","trademark", "kitchen", "paris", "london", "new york"]
+}

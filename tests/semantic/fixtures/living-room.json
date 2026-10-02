@@ -1,0 +1,7 @@
+{
+  "image_type": "room",
+  "reviewed": "A simple drawing of a blue sofa against a beige wall, with a window on the right and a brown floor.",
+  "must_mention": [["sofa", "couch"], ["window"]],
+  "must_not_mention": ["leather", "velvet", "fabric", "apartment", "modern", "scandinavian"],
+  "forbidden_terms": ["acme","brandname","logo","trademark", "ikea", "paris", "london", "new york", "california"]
+}

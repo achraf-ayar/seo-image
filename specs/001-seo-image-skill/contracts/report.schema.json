@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "report.json",
+  "type": "object",
+  "required": ["results"],
+  "properties": {
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["original_filename", "new_filename", "status", "domain", "watermark_status", "watermark_position"],
+        "properties": {
+          "original_filename": { "type": "string" },
+          "new_filename": { "type": ["string", "null"] },
+          "status": { "enum": ["ok", "failed", "skipped"] },
+          "reason": { "type": "string" },
+          "alt": { "type": "string" },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "domain": { "type": ["string", "null"] },
+          "watermark_status": { "enum": ["applied", "none", "disabled", "skipped"] },
+          "watermark_reason": { "type": "string" },
+          "watermark_position": { "enum": ["bottom-right", "bottom-left", "top-right", "top-left", null] },
+          "width": { "type": "integer" },
+          "height": { "type": "integer" }
+        }
+      }
+    }
+  }
+}

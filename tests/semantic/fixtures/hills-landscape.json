@@ -1,0 +1,7 @@
+{
+  "image_type": "landscape",
+  "reviewed": "A simple drawing of green hills under a light blue sky with a yellow sun at the upper right.",
+  "must_mention": [["hill", "hills", "landscape"], ["sun", "sky"]],
+  "must_not_mention": ["mountain", "alps", "valley", "forest", "sunset", "sunrise"],
+  "forbidden_terms": ["acme","brandname","logo","trademark", "scotland", "ireland", "switzerland", "tuscany", "national park"]
+}
